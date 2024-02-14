@@ -1,0 +1,23 @@
+environment: dev
+project_name: HARTRON AUTOMATION
+report_name: HARTRON_UI
+jewel_user: tushchauhan31
+jewel_bridge_token: 54263327-8250-4252-96f7-52f094abfa021690886988626
+enter_point: https://apis.gemecosystem.com/gemEcosystemDashboard/v1/enter-point
+feature: src/main/resources/features
+glue_code: com/qa/gemini/stepdefinitions
+console_report: n
+jewel_screen_shots: y
+email_report: n
+email_to: 'tushar.chauhan@geminisolutions.com'
+email_cc: 'kriti.jha@geminisolutions.com, akshay.katiha@geminisolutions.com'
+event_firing: y
+dev:
+  browser_name: chrome
+  launch_url: https://athena-hartron-dev.geminisolutions.com/login
+  browser_timeout: 10
+
+preprod:
+  browser_name: chrome
+  launch_url: http://10.50.17.30:9080/login
+  browser_timeout: 10
